@@ -1,5 +1,5 @@
 CREATE TABLE auth (
-    id AUTOINCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
     senha VARCHAR(255) NOT NULL,
     id_user INTEGER, 
